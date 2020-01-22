@@ -7,7 +7,10 @@ Les projets de loi étant écris sous la forme d'instructions modifiant différe
 
 <!-- TODO: insérer un screenshot de comparaison et un lien vers une branche sympa -->
 
-Le projet est donc d'appliquer les "instructions" de chaque article.
+Le projet est donc d'appliquer les "instructions" de chaque article pour ensuite produire un texte comparatif.
+
+Exemple pour l'Article 4 du projet de loi cela donne ceci: https://github.com/mdamien/pjl-retraites/compare/article-004
+
 
 ## Organisation
 
@@ -15,7 +18,7 @@ Le projet est donc d'appliquer les "instructions" de chaque article.
 - Les branches `articles-<numéro de l'article>` se basent sur la `loi-en-vigeur` et appliquent l'article.
     * Ces branches doivent idéalement n'avoir qu'un seul commit. Dans le message de commit, on peut aussi mettre que celle-ci est en cours de fabrication avec un titre comme `Article [<<où l'on en est>>]`, ex `Article 14 [1]` veut dire que le `I.` de l'Article 14 à été fait mais pas le reste por exemple.
     * Pour les article qui ne modifient pas de codes et sont directement applicables, un nouveau fichier est crée, `loi`, ce fichier est destinés à acceuillir tout les articles 
-- Une branche `PJL-retraites` est ensuite créee à la main en faisant un *cherry-pick* de tout les articles. Des conflits vont apparaitres, ils doivent être résolus à la main pour le moment.
+- Une branche `PJL-retraites` est ensuite crée à la main en faisant un *cherry-pick* de tout les articles. Des conflits vont apparaitres, ils doivent être résolus à la main pour le moment.
 
 ## Comment participer ?
 
@@ -36,7 +39,7 @@ Tout les 64 articles du projet du loi ne sont pas encore fait, la façon la plus
 
 De plus, si vous voyez des erreurs dans le projet de loi, vous pouvez la signaler ici: https://github.com/mdamien/pjl-retraites/issues/1
 
-### Idées d'amélioration
+### Idées d'améliorations
 
 - Formater le résultat pour qu'il soit utilisable par des non-spécialistes comme les textes comparatifs que l'Assemblée produit ou les diff Markdown riches comme ceux de GitHub et Wikipedia
 - Faire le même procédé pour la version organique
