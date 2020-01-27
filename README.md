@@ -9,7 +9,7 @@ Les projets de loi étant écris sous la forme d'instructions modifiant différe
 
 Le projet est donc d'appliquer les "instructions" de chaque article pour ensuite produire un texte comparatif.
 
-Exemple pour l'Article 4 du projet de loi cela donne ceci: https://github.com/mdamien/pjl-retraites/compare/article-004
+Exemple pour l'Article 4 du projet de loi cela donne ceci: https://github.com/mdamien/pjl-retraites/compare/loi-en-vigeur...article-004
 
 
 ## Organisation
@@ -31,9 +31,9 @@ Tout les 64 articles du projet du loi ne sont pas encore fait, la façon la plus
      * **Les articles 1 à 20 ont déja été commencés**, il vaut mieux prendre les articles à partir de **30**
      * Il est possible de vérifier l'état d'avancement d'un article en allant regarder dans sa branche respective
 3. Modifier la loi en vigeur
-    * Si l'article modifie le code de la sécurité sociale, il faut éditer ce code, celà n'est pas possible avec l'interface GitHub car ce code est trop long po. Il faut [télécharger le code](https://raw.githubusercontent.com/mdamien/pjl-retraites/loi-en-vigeur/code_de_la_s%C3%A9curit%C3%A9_sociale), le modifier avec un éditeur de texte, comme Notepad++ pour Windows. Et m'envoyer le résultat par email. Si vous connaissez bien Git et Github, alors faire une Pull Request avec le résultat 
+    * Si l'article modifie le code de la sécurité sociale, il faut éditer ce code, celà n'est pas possible avec l'interface GitHub car ce code est trop long po. Il faut [télécharger le code](https://archeo-lex.fr/codes/code_de_la_s%C3%A9curit%C3%A9_sociale/2019-08-14/brut), le modifier avec un éditeur de texte, comme Notepad++ pour Windows. Et m'envoyer le résultat par email. Si vous connaissez bien Git et Github, alors faire une Pull Request avec le résultat 
     * Si l'article modifie un autre code, celà n'est pas encore supporté, il faudrait l'ajouter depuis Archeolex dans `loi-en-vigeur`.
-    * Si l'article s'applique directement, alors il faut créer un nouveau fichier `loi`, celà peut [se faire via l'interface GitHub](https://github.com/mdamien/pjl-retraites/new/loi-en-vigeur?filename=loi), et mettre dans ce fichier l'article et son texte, comme dans à (l'article 18)[https://github.com/mdamien/loi-en-vigeur/compare/article-018].
+    * Si l'article s'applique directement, alors il faut créer un nouveau fichier `loi`, celà peut [se faire via l'interface GitHub](https://github.com/mdamien/pjl-retraites/new/loi-en-vigeur?filename=loi), et mettre dans ce fichier l'article et son texte, comme dans à [l'article 18](https://github.com/mdamien/pjl-retraites/compare/loi-en-vigeur...article-018).
 
 **Si besoin d'aide, n'hesitez pas me contacter via un courriel à `damien@dam.io`**
 
