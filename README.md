@@ -37,7 +37,7 @@ Tout les 64 articles du projet du loi ne sont pas encore fait, la façon la plus
 
 **Si besoin d'aide, n'hesitez pas me contacter via un courriel à `damien@dam.io`**
 
-De plus, si vous voyez des erreurs dans le projet de loi, vous pouvez la signaler ici: https://github.com/mdamien/pjl-retraites/issues/1
+De plus, si vous voyez une erreur dans le projet de loi, vous pouvez la signaler ici: https://github.com/mdamien/pjl-retraites/issues/1
 
 ### Idées d'améliorations
 
