@@ -39,7 +39,10 @@ Tout les 64 articles du projet du loi ne sont pas encore fait, la façon la plus
 
 De plus, si vous voyez une erreur dans le projet de loi, vous pouvez la signaler ici: https://github.com/mdamien/pjl-retraites/issues/1
 
+À la base, le projet étant simplement de retranscrire le projet préparatoire mais j'ai commencé à ajouter [la version déposée à l'AN](http://www.assemblee-nationale.fr/15/projets/pl2623.asp) sous la forme de branches `article-XXX-depot`, par exemple: https://github.com/mdamien/pjl-retraites/compare/article-001...article-001-depot
+
 ### Idées d'améliorations
 
-- Formater le résultat pour qu'il soit utilisable par des non-spécialistes comme les textes comparatifs que l'Assemblée produit ou les diff Markdown riches comme ceux de GitHub et Wikipedia
+- Formater le résultat pour qu'il soit utilisable par des non-spécialistes 
+	- Par exemple: les textes comparatifs de l'Assemblée, les diff Markdown riches comme ceux de GitHub et Wikipedia
 - Faire le même procédé pour la version organique
