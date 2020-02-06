@@ -14,7 +14,7 @@ Exemple pour l'Article 4 du projet de loi cela donne ceci: https://github.com/re
 
 ## Organisation
 
-- La branche `loi-en-vigeur` contient les codes et lois avant modification (pour l'instant seulement le code de la sécurité sociale)
+- La branche `loi-en-vigeur` contient les codes et lois avant modification
 - Les branches `articles-<numéro de l'article>` se basent sur la `loi-en-vigeur` et appliquent l'article.
     * Ces branches doivent idéalement n'avoir qu'un seul commit. Dans le message de commit, on peut aussi mettre que celle-ci est en cours de fabrication avec un titre comme `Article [<<où l'on en est>>]`, ex `Article 14 [1]` veut dire que le `I.` de l'Article 14 à été fait mais pas le reste por exemple.
     * Pour les article qui ne modifient pas de codes et sont directement applicables, un nouveau fichier est crée, `loi`, ce fichier est destinés à acceuillir tout les articles 
