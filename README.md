@@ -29,11 +29,9 @@ Tout les 64 articles du projet du loi ne sont pas encore fait, la façon la plus
 
  1. Télécharger le projet de loi, il est disponible chez [Contexte](https://www.contexte.com/article/pouvoirs/document-les-projets-de-loi-de-reforme-des-retraites_109875.html) en créant un compte gratuit, de même chez [Politis](https://www.politis.fr/articles/2020/01/documents-les-textes-de-la-reforme-des-retraites-a-telecharger-41246/)
  2. Prendre un article, ceux-ci commencent à partir de la **page 45**
-     * **Les articles 1 à 20 ont déja été commencés**, il vaut mieux prendre les articles à partir de **30**
-     * Il est possible de vérifier l'état d'avancement d'un article en allant regarder dans sa branche respective
+     * **Les articles déja fait sont documentés [ici](https://github.com/regardscitoyens/pjl-retraites/issues/5)**
 3. Modifier la loi en vigeur
-    * Si l'article modifie le code de la sécurité sociale, il faut éditer ce code, celà n'est pas possible avec l'interface GitHub car ce code est trop long. Il faut [télécharger le code](https://archeo-lex.fr/codes/code_de_la_s%C3%A9curit%C3%A9_sociale/2019-08-14/brut), le modifier avec un éditeur de texte, comme Notepad++ pour Windows. Et m'envoyer le résultat par email. Si vous connaissez bien Git et Github, alors faire une Pull Request avec le résultat 
-    * Si l'article modifie un autre code, celà n'est pas encore supporté, il faudrait l'ajouter depuis Archeolex dans `loi-en-vigeur`.
+    * Si l'article modifie un code, il faut éditer ce code
     * Si l'article s'applique directement, alors il faut créer un nouveau fichier `loi`, et mettre dans ce fichier l'article et son texte, comme à [l'article 18](https://github.com/regardscitoyens/pjl-retraites/compare/loi-en-vigeur...article-018).
 
 **Si besoin d'aide, n'hesitez pas me contacter via un courriel à `damien@dam.io`**
