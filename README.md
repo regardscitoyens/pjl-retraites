@@ -21,6 +21,8 @@ Le projet est donc d'appliquer les "instructions" de chaque article du projet de
 
 De même, les amendements sont ajoutés sous la forme de branches `article-XXX-amendement-YYY`.
 
+De plus, le même procédé est appliqué à [la loi organique](http://www.assemblee-nationale.fr/15/projets/pl2622.asp), en ajoutant simplement le prefixe `pjlo/` devant. Les articles sont par exemple disponibles sous `pjlo/article-XXX-depot`.
+
 ## Comment participer ?
 
 ### Ajouter un article
