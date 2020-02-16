@@ -13,7 +13,7 @@ Le projet est donc d'appliquer les "instructions" de chaque article du projet de
 
 - La branche `loi-en-vigeur` contient les codes et lois avant modification
 - Les branches `articles-<numéro de l'article>` se basent sur la `loi-en-vigeur` et appliquent l'article.
-    * Ces branches un seul commit. Dans le message de commit, on peut mettre que celle-ci est en cours de fabrication avec un titre comme `Article [<<où l'on en est>>]`, ex `Article 14 [1]` veut dire que le `I.` de l'Article 14 à été fait mais pas le reste por exemple.
+    * Ces branches un seul commit. Dans le message de commit, on peut mettre que celle-ci est en cours de fabrication avec un titre comme `Article [<<où l'on en est>>]`, ex `Article 14 [1]` veut dire que le `I.` de l'Article 14 à été fait mais pas le reste par exemple.
     * Pour les article qui ne modifient pas de codes et sont directement applicables, un nouveau fichier est crée, `loi`
 - Une branche `pjl-prep` est ensuite crée à la main en faisant un *merge* de tout les articles. Les conflits sont résolus à la main pour le moment.
 
