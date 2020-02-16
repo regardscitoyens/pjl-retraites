@@ -1,15 +1,14 @@
-# pjl-retraites
-***Version appliquée du projet de loi instituant un système de retraite universel***
+## Améliorer la lisibilité du projet de loi instituant un système de retraite universel
 
-## But du projet
+Les projets de loi étant écrits sous la forme d'instructions modifiant différents codes, il pourrait être plus simple de travailler avec ces modifications sous la forme de différences sur le contenu directement.
 
-Les projets de loi étant écris sous la forme d'instructions modifiant différents codes, il pourrait être plus simple de travailler avec ces modifications sous la forme de différences sur le contenu directement. L'Assemblée publie par exemple des [textes comparatifs](http://www.assemblee-nationale.fr/15/ta-pdf/0911-p.pdf#page=3) pour aider les parlementaires.
-
-Le projet est donc d'appliquer les "instructions" de chaque article du projet de loi pour ensuite produire un texte comparatif.
+Le but de ce projet est donc d'appliquer les "instructions" de chaque article du projet de loi pour ensuite produire un texte comparatif pour chaque article.
 
 ![exemple avec l'article 1er](diff_article1.png?raw=true)
 
-## Organisation
+## Comment contribuer ?
+
+### Organisation
 
 - La branche `loi-en-vigeur` contient les codes et lois avant modification
 - Les branches `articles-<numéro de l'article>` se basent sur la `loi-en-vigeur` et appliquent l'article.
@@ -23,8 +22,6 @@ De même, les amendements sont ajoutés sous la forme de branches `article-XXX-a
 
 De plus, le même procédé est appliqué à [la loi organique](http://www.assemblee-nationale.fr/15/projets/pl2622.asp), en ajoutant simplement le prefixe `pjlo/` devant. Les articles sont par exemple disponibles sous `pjlo/article-XXX-depot`.
 
-## Comment participer ?
-
 ### Ajouter un article
 
 Tout les 64 articles du projet du loi ne sont pas encore fait, la façon la plus simple de participer est d'en faire un qui n'est pas encore fait.
@@ -37,14 +34,6 @@ Tout les 64 articles du projet du loi ne sont pas encore fait, la façon la plus
     * Si l'article s'applique directement, alors il faut créer un nouveau fichier `loi`, et mettre dans ce fichier l'article et son texte, comme à [l'article 18](https://github.com/regardscitoyens/pjl-retraites/compare/loi-en-vigeur...article-018).
 
 **Si besoin d'aide, n'hesitez pas me contacter via un courriel à `damien@dam.io`**
-
-De plus, si vous voyez une erreur dans le projet de loi, vous pouvez la signaler ici: https://github.com/regardscitoyens/pjl-retraites/issues/1
-
-### Idées d'améliorations
-
-- Formater le résultat pour qu'il soit utilisable par des non-spécialistes 
-	- Par exemple: les textes comparatifs de l'Assemblée, les diff Markdown riches comme ceux de GitHub et Wikipedia
-- Faire le même procédé pour la version organique
 
 ### Inspirations
 
