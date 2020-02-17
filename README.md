@@ -4,6 +4,11 @@ Les projets de loi étant écrits sous la forme d'instructions modifiant différ
 
 Le but de ce projet est donc d'appliquer les "instructions" de chaque article du projet de loi pour ensuite produire un texte comparatif pour chaque article.
 
+## Résultats
+
+* **[Le projet de loi et ses 65 articles sous forme de texte comparatif]()**
+* **[Le projet de loi organique et ses 5 articles sous forme de texte comparatif]()**
+
 ![exemple avec l'article 1er](diff_article1.png?raw=true)
 
 ## Comment contribuer ?
@@ -16,11 +21,9 @@ Le but de ce projet est donc d'appliquer les "instructions" de chaque article du
     * Pour les article qui ne modifient pas de codes et sont directement applicables, un nouveau fichier est crée, `loi`
 - Une branche `pjl-prep` est ensuite crée à la main en faisant un *merge* de tout les articles. Les conflits sont résolus à la main pour le moment.
 
-À la base, le projet étant simplement de retranscrire le projet préparatoire mais j'ai commencé à ajouter [la version déposée à l'AN](http://www.assemblee-nationale.fr/15/projets/pl2623.asp) sous la forme de branches `article-XXX-depot`, par exemple: https://github.com/regardscitoyens/pjl-retraites/compare/article-001...article-001-depot
+À la base, le projet étant simplement de retranscrire le projet préparatoire mais [la version déposée à l'AN](http://www.assemblee-nationale.fr/15/projets/pl2623.asp) à été ajoutée en entier sous la forme de branches `article-XXX-depot`, par exemple: https://github.com/regardscitoyens/pjl-retraites/compare/article-001...article-001-depot. De même pour [la loi organique](http://www.assemblee-nationale.fr/15/projets/pl2622.asp), en ajoutant simplement le prefixe `pjlo/` devant. Les articles sont par exemple disponibles sous `pjlo/article-XXX-depot`. 
 
-De même, les amendements sont ajoutés sous la forme de branches `article-XXX-amendement-YYY`.
-
-De plus, le même procédé est appliqué à [la loi organique](http://www.assemblee-nationale.fr/15/projets/pl2622.asp), en ajoutant simplement le prefixe `pjlo/` devant. Les articles sont par exemple disponibles sous `pjlo/article-XXX-depot`.
+En bonus, les amendements adoptés sont ajoutés sous la forme de branches `article-XXX-amendement-YYY`.
 
 ### Ajouter un article
 
