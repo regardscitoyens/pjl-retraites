@@ -42,4 +42,5 @@ Tout les 64 articles du projet du loi ne sont pas encore fait, la façon la plus
 ### Inspirations
 
 - [Duralex/Sedlex](https://github.com/Legilibre/SedLex) qui automatise ce qui est fait ici à la main
+- [Archeo Lex](http://archeo-lex.fr/) qui est utilisé comme source pour les codes
 - [La Fabrique de la loi](http://lafabriquedelaloi.fr/) qui produit un equivalent des textes comparatifs en permettant de comparer les version des projets de loi
