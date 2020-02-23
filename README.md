@@ -9,6 +9,7 @@ Le but de ce projet est donc d'appliquer les "instructions" de chaque article du
 * **[Le projet de loi et ses 65 articles sous forme de texte comparatif](https://github.com/regardscitoyens/pjl-retraites/raw/lisez-moi/pjl.pdf)**
 * **[Le projet de loi organique et ses 5 articles sous forme de texte comparatif](https://github.com/regardscitoyens/pjl-retraites/raw/lisez-moi/pjlo.pdf)**
 * **[Apports de la commission pour la loi organique](https://github.com/regardscitoyens/pjl-retraites/raw/lisez-moi/pjlo-apports-commission.pdf)**
+* **[Le texte organique en discussion en séance](https://github.com/regardscitoyens/pjl-retraites/raw/lisez-moi/pjlo-com.pdf)**
 
 ![exemple avec l'article 1er](diff_article1.png?raw=true)
 
