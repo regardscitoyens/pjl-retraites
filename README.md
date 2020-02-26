@@ -21,7 +21,7 @@ Le but de ce projet est donc d'appliquer les "instructions" de chaque article du
 - Les branches `articles-<numéro de l'article>` se basent sur la `loi-en-vigeur` et appliquent l'article.
     * Ces branches un seul commit. Dans le message de commit, on peut mettre que celle-ci est en cours de fabrication avec un titre comme `Article [<<où l'on en est>>]`, ex `Article 14 [1]` veut dire que le `I.` de l'Article 14 à été fait mais pas le reste par exemple.
     * Pour les article qui ne modifient pas de codes et sont directement applicables, un nouveau fichier est crée, `loi`
-- Une branche `pjl-prep` est ensuite crée à la main en faisant un *merge* de tout les articles. Les conflits sont résolus à la main pour le moment.
+- Une branche `tout-les-articles` est ensuite crée à la main en faisant un *merge* de tout les articles. Les conflits sont résolus à la main pour le moment.
 
 À la base, le projet étant simplement de retranscrire le projet préparatoire mais [la version déposée à l'AN](http://www.assemblee-nationale.fr/15/projets/pl2623.asp) à été ajoutée en entier sous la forme de branches `article-XXX-depot`, par exemple: https://github.com/regardscitoyens/pjl-retraites/compare/article-001...article-001-depot. De même pour [la loi organique](http://www.assemblee-nationale.fr/15/projets/pl2622.asp), en ajoutant simplement le prefixe `pjlo/` devant. Les articles sont par exemple disponibles sous `pjlo/article-XXX-depot`. 
 
